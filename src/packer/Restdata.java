@@ -33,6 +33,13 @@ public class Restdata extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		HttpSession session=request.getSession();
+		PrintWriter out=response.getWriter();
+		out.println("<body bgcolor=\"#FFEBCD\">");
+		out.println("<a href='https://evening-savannah-34179.herokuapp.com'>Back Home");
+		
+		
+		
 try {
 			
 			HttpSession session=request.getSession();
@@ -62,8 +69,6 @@ try {
 				
 				out.println(a+"                "+b+"             "+c+"            "+d+"            "+e+"                     "+f);
 			}
-			out.println("<body bgcolor=\"#FFEBCD\">");
-			out.println("<a href='https://evening-savannah-34179.herokuapp.com'>Back Home");
 			
 			
 		} catch (Exception e) {
