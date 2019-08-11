@@ -13,8 +13,6 @@
 <a href="/Restdata">Click Here to view Rest data</a>
 <br><br>
 <a href="/inputrest.jsp">Click Here to Insert data</a>
-<br><br>
-<a href="/delrest.jsp">Click Here to delete data</a>
 </center>
 </body>
 </html>

@@ -9,9 +9,6 @@
 <body>
 <body bgcolor="#FFEBCD">
 <form action="/Insertrest" method="POST">
-<p>Enter the model id</p>
-<input type="number" name="Model_ID">
-<br><br>
 <p>Enter the Fuel_1_no</p>
 <br><br>
 <input  type="number" name="Fuel_1_no">
@@ -24,7 +21,7 @@
 <br><br>
 <input type="number" name="City_MPG_FT1">
 <br><br>
-<p>Enter the City_MPG_FT1</p>
+<p>Enter the City_MPG_FT2</p>
 <br><br>
 <input type="number" name="City_MPG_FT2">
 <br><br>
