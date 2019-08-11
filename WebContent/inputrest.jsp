@@ -8,25 +8,28 @@
 </head>
 <body>
 <form action="/Insertrest" method="POST">
+<p>Enter the model id</p>
+<input type="number" name="Model_ID">
+<br><br>
 <p>Enter the Fuel_1_no</p>
 <br><br>
-<input value="text" name="Fuel_1_no">
+<input  type="number" name="Fuel_1_no">
 <br><br>
 <p>Enter the Fuel_2_no</p>
 <br><br>
-<input value="text" name="Fuel_2_no">
+<input type="number" name="Fuel_2_no">
 <br><br>
 <p>Enter the City_MPG_FT1</p>
 <br><br>
-<input value="text" name="City_MPG_FT1">
+<input type="number" name="City_MPG_FT1">
 <br><br>
-<input value="text" name="City_MPG_FT2">
+<input type="number" name="City_MPG_FT2">
 <br><br>
 <p>Enter the Highway_MPG_FT1</p>
-<input value="text" name="Highway_MPG_FT1">
+<input type="number" name="Highway_MPG_FT1">
 <br><br>
 <p>Enter the Highway_MPG_FT2</p>
-<input value="text" name="Highway_MPG_FT2">
+<input type="number" name="Highway_MPG_FT2">
 <br><br>
 <input type="submit" name="submit">
 </form>
