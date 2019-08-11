@@ -7,6 +7,7 @@
 <title>Enter data to be inserted</title>
 </head>
 <body>
+<body bgcolor="#FFEBCD">
 <form action="/Insertrest" method="POST">
 <p>Enter the model id</p>
 <input type="number" name="Model_ID">

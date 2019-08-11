@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Delete row</title>
 </head>
 <body>
+<body bgcolor="#FFEBCD">
 <form action="Delrestserv" method="POST">
 <p>Enter the model id whose record needs to be deleted</p>
 <input type="number" name="Model_ID">
