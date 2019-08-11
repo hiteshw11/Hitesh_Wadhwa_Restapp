@@ -24,6 +24,8 @@
 <br><br>
 <input type="number" name="City_MPG_FT1">
 <br><br>
+<p>Enter the City_MPG_FT1</p>
+<br><br>
 <input type="number" name="City_MPG_FT2">
 <br><br>
 <p>Enter the Highway_MPG_FT1</p>
