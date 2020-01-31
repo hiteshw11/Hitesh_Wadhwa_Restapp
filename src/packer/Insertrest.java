@@ -46,7 +46,7 @@ public class Insertrest extends HttpServlet {
 		try
 		{
 			Class.forName("com.mysql.jdbc.Driver");
-			java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://us-cdbr-iron-east-02.cleardb.net/heroku_a37659de952362a","b65974ec261c44","b755a171");
+			java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://us-cdbr-iron-east-02.cleardb.net/DB_NAME","USERNAME","PASSWORD");
 			
 			Statement st= con.createStatement(); 
 			 
